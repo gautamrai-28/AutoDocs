@@ -1,0 +1,79 @@
+# ======================================================
+# AutoDocs
+# ======================================================
+
+############################
+# Python
+############################
+
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/.mypy_cache/
+backend/.coverage
+backend/htmlcov/
+
+############################
+# Virtual Environment
+############################
+
+backend/.venv/
+backend/venv/
+backend/env/
+
+############################
+# Environment Variables
+############################
+
+backend/.env
+frontend/.env
+
+############################
+# Temporary Files
+############################
+
+backend/tmp/
+backend/temp/
+backend/uploads/
+backend/*.log
+
+############################
+# Node
+############################
+
+frontend/node_modules/
+
+############################
+# Vite
+############################
+
+frontend/dist/
+
+############################
+# VS Code
+############################
+
+.vscode/
+
+############################
+# OS Files
+############################
+
+.DS_Store
+Thumbs.db
+
+############################
+# Git
+############################
+
+*.orig
+*.rej
+
+############################
+# Misc
+############################
+
+*.zip
+*.tar
+*.gz
